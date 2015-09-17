@@ -1,0 +1,63 @@
+/* Print Stylesheet - Adrian Turner(aturner@matrixgroup.net and Lara Swanson, lswanson@matrixgroup.net */
+
+.do-not-print { display: none; }
+#comments { page-break-before: always; }
+
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Garamond,"Times New Roman", serif; color: #000; background: none; font-size: 12pt; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1 { font-size: 19pt; }
+h2 { font-size:17pt; }
+h3 { font-size:15pt; }
+h4,h5,h6 { font-size:12pt; }
+code { font: 10pt Courier, monospace; } 
+blockquote { margin: 1.3em; padding: 1em; }
+img { display: block; margin: 1em 0; }
+a img { border: none; }
+table { margin: 1px; text-align:left; }
+th { border-bottom: 1px solid #333;  font-weight: bold; }
+td { border-bottom: 1px solid #333; }
+th, td { padding: 4px 10px 4px 0; }
+caption { background: #fff; margin-bottom: 2em; text-align: left; }
+thead { display: table-header-group; }
+tr { page-break-inside: avoid; } 
+a { text-decoration: none; color: black; }
+
+/* reset elements */
+#utilityNav, #siteSearch, nav ul, #sidebar, #breadcrumbs, #screenReader { display:none;}
+
+
+/* content */
+#content { float:left; width:750px; }
+#case-study #content { float:left; width:680px;}
+
+
+header { float:left; background:none; margin:0; padding:0; width:959px; }
+#logo { float:left; margin:0px 10px 20px 25px; }
+#header-lead { float:left; width:679px; }
+
+ul.mission { border-left:1px solid red; float:left; margin-top:0px; padding:2px 0 0px 0; }
+ul.mission li { line-height:1.4em; list-style:none; margin:0 0 3px 0; padding:0 0 0 10px; }
+ul.mission span { color:#d34955; }
+
+/* tertiarty */
+#content .module.tertiary { float:right; width:230px; }
+#tertiary { float:left; margin-left:30px; width:199px; }
+
+
+
+/* footer */
+footer { background:none; color:#000; float:left; width:960px; }
+footer a { color:#da7d19; }
+footer p.copyright { border-bottom:1px solid #333333; padding:15px 20px; width:auto; }
+footer h4 { color:#000; font-weight:normal; }
+footer .module { float:left; font-size:.9em; padding:10px 20px; width:255px; }
+footer .module.email { border-right:1px solid #333333; float:left; margin-left:30px; padding:10px 60px 7px 30px; width:auto; }
+footer .module.email a:hover { text-decoration:none; }
+footer .module.connect { float:left; margin:0; width:200px; }
+footer .module.connect li { float:left; list-style-type:none; margin:0; padding:0 1px; }
+.org { display:none; }
+
+.matrix { clear:left; float:left; color:#000; font-weight:bold; padding:5px 0 10px 20px; }
+.matrix a { color:#da7d19; text-decoration:none; }
+.matrix a:hover { text-decoration:underline; }
+

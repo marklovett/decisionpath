@@ -1,0 +1,93 @@
+/*   
+Theme Name:Matrix Default
+Theme URI:http://www.matrixgroup.net
+Description:Blank starter WP theme
+Author:Lara Swanson
+Author URI:http://www.matrixgroup.net
+Version:1.1
+*/
+
+/* ------------------ Reset ----------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+body { line-height:1; }
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+table { border-collapse:collapse; border-spacing:0; } /* tables still need 'cellspacing="0"' in the markup */
+
+
+/* ------------- Custom Classes ------------- */
+#skipLinks a, #skipLinks a:hover, #skipLinks a:visited  { position:absolute; left:0px; width:1px; height:1px; overflow:hidden; }
+#skipLinks a:active, #skipLinks a:focus { position:static; width:auto; height:auto; } 
+
+.entry-content img { margin:0 0 0.8em 0; }
+.alignleft, img.alignleft { display:inline; float:left;  margin-right:0.8em; }
+.alignright, img.alignright { display:inline; float:right; margin-left:0.8em; }
+.aligncenter, img.aligncenter { clear:both; display:block; margin-left:auto; margin-right:auto; }
+.wp-caption { text-align:center; margin-bottom:0.8em; }
+.wp-caption img { border:0 none; margin:0; padding:0; }
+.wp-caption p.wp-caption-text { margin:0; background-color:#eee; border:1px #ccc solid; padding:3px; }
+.wp-smiley { max-height:1em; margin:0 !important; }
+.gallery dl { margin:0; }
+.gallery-caption { margin:-0.8em 0 0 0; }
+
+
+/* ----------------- Layout ----------------- */
+body { background:white; font:14px/1.4 Georgia, Serif; }
+
+#page-wrap { width:960px; margin:20px auto; }
+
+#header, #nav, #footer { clear:both; }
+#nav { float:left; width:230px; overflow:hidden; }
+	#nav li { float:left; }
+#content { float:left; width:630px; }
+#sidebar { float:right; width:270px; }
+
+.navgation { }
+   .next-posts { }
+   .prev-posts { }
+
+#searchform { }
+	#s { }
+	#searchsubmt { }
+
+.post { }
+
+.entry { }
+
+#meta { }
+.postmetadata { }
+
+
+/* --------------- Typography --------------- */
+h1, h2, h3, h4, h5 { margin:0.8em 0; }
+h1 { font-size:2em }
+h2 { font-size:1.5em }
+h3 { font-size:1.2em }
+
+p { margin:0.8em 0; }
+ul, ol { margin:0.8em 0 0.8em 1.6em; }
+blockquote { margin:1.6em; }
+a { }
+a:hover { } 
+
+.entry ul { list-style:disc; }
+.entry ol { list-style:decimal; }
+
+
+/* ---------------- Comments ---------------- */
+ol.commentlist { list-style:none; }
+ol.commentlist li.comment { border-bottom:1px dotted #666; padding:10px; }
+ol.commentlist li.comment div.vcard cite.fn { font-style:normal; }
+ol.commentlist li.comment div.vcard img.avatar { float:right; margin:0 0 1em 1em; }
+ol.commentlist li.comment div.comment-meta { font-size:10px; }
+ol.commentlist li.comment div.comment-meta a { color:#ccc; }
+ol.commentlist li.comment div.reply { font-size:11px; }
+ol.commentlist li.comment div.reply a { font-weight:bold; }
+ol.commentlist li.comment ul.children { list-style:none; margin:10px 0 0; }
+ol.commentlist li.comment ul.children li.depth-2 { border-left:5px solid #555; margin:0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left:5px solid #999; margin:0 0 10px 10px; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left:5px solid #bbb; margin:0 0 10px 10px; }
+ol.commentlist li.even { background:#fff; }
+ol.commentlist li.odd { background:#f6f6f6; }
+ol.commentlist li.parent { border-left:5px solid #111; }
